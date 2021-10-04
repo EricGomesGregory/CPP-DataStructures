@@ -27,6 +27,14 @@ void Stack::Pop()
 	}
 }
 
+int Stack::Top()
+{
+	if(top)
+	{
+		return top->value;
+	}
+}
+
 void Stack::Print()
 {
 	Node *node = top;
