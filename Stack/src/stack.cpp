@@ -33,6 +33,7 @@ int Stack::Top()
 	{
 		return top->value;
 	}
+	return -1;
 }
 
 void Stack::Print()
