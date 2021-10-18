@@ -10,5 +10,10 @@ int main(int argc, char const *argv[])
 	list->Add(2);
 	list->Print();
 
+	list->AddAfter(5, 0);
+	list->Print();
+	list->Remove();
+	list->Print();
+
 	return 0;
 }
